@@ -19,5 +19,4 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: infra/my-first-bicep.bicep
-                  parameters: storagePrefix=stg
                   failOnStdErr: false
